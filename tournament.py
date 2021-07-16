@@ -26,6 +26,7 @@ def main():
     counts = {}
 
     # TODO: Simulate N tournaments and keep track of win counts for each team
+    # DE aca hasta el line40 lo hice yo
 
     # set counter at 0 for each Country in Counts Dictionary
     for team in teams: # CADA DICCIONARIO EN LA LISTA TEAMS
@@ -64,6 +65,7 @@ def simulate_round(teams):
 def simulate_tournament(teams):
     """Simulate a tournament. Return name of winning team."""
     # TODO
+    # De aca hasta el line 72 lo hice yo
     winners = simulate_round(teams)
     while len(winners)!= 1:
         winners = simulate_round(winners)
